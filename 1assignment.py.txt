@@ -1,0 +1,18 @@
+#Question 1
+#Write a python program that takes two numbers as the input such as X and Y and print the result
+#of X^Y(X to the power of Y).
+
+
+x=int(input("enter the value of x "))
+y=int(input("enter the value of y "))
+z=x**y
+print("the x to the power of y is :", z)
+
+#Question 2
+#Write a Python program to print the numbers in the list which are divisible by 3.
+
+num_list= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for num in num_list:
+    if (num * num) % 3 == 0:
+        print(num)
